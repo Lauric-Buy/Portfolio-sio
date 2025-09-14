@@ -16,18 +16,17 @@ Style sur les polices :
     /* Polices titres & sous-titre : */
     --typo-titres: 'Kanit', 'Exo 2', sans-serif;
     /*
-  Style sur les couleurs :
-  ------------------------
-  */
+    Style sur les couleurs :
+    ------------------------
+    */
     /* Couleur du lien normal dans la navbar */
     --nav-link: white;
     /* Couleur du lien actif dans la navbar */
     --nav-link-active: rgb(255, 209, 5);
     /*
-  Redéfinition des couleurs de Bootstrap :
-  ----------------------------------------
-  */
-
+    Redéfinition des couleurs de Bootstrap :
+    ----------------------------------------
+    */
     --bs-warning: rgb(255, 166, 0);
     --bs-warning-rgb: 255, 166, 0;
     --bs-warning-bg-subtle: rgb(250, 240, 100);
@@ -58,6 +57,7 @@ a {
     a:hover {
         color: var(--nav-link-active);
     }
+
 
 
 
