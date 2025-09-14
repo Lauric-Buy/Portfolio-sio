@@ -20,42 +20,42 @@ Style sur les polices :
     ------------------------
     */
     /* Couleur du lien normal dans la navbar */
-    --nav-link: rgb(16, 44, 84);
+    --nav-link: rgb(52, 120, 201);
     /* Couleur du lien actif dans la navbar */
-    --nav-link-active: rgb(16, 44, 84);
+    --nav-link-active: rgb(52, 120, 201);
     /*
     Redéfinition des couleurs de Bootstrap :
     ----------------------------------------
     */
-    --bs-warning: rgb(16, 44, 84);
-    --bs-warning-rgb: 16, 44, 84;
-    --bs-warning-bg-subtle: rgba(16, 44, 84, 0.2);
-    --bs-warning-border-subtle: rgba(16, 44, 84, 0.2);
+    --bs-warning: rgb(52, 120, 201);
+    --bs-warning-rgb: 52, 120, 201;
+    --bs-warning-bg-subtle: rgba(52, 120, 201, 0.2);
+    --bs-warning-border-subtle: rgba(52, 120, 201, 0.2);
 }
 
 /* Style global du corps de page */
 body {
     font-family: var(--typo-generale);
-    color: rgb(16, 44, 84);
+    color: rgb(52, 120, 201);
     background-color: #f9f9f9;
 }
 
 /* Titres principaux et secondaires */
 h1, h2, h3 {
     font-family: var(--typo-titres);
-    color: rgb(16, 44, 84);
+    color: rgb(52, 120, 201);
 }
 
 /* Lien normal */
 a {
-    color: rgb(16, 44, 84);
+    color: rgb(52, 120, 201);
     text-decoration: none;
 }
 
     /* Lien actif ou survolé */
     a.active,
     a:hover {
-        color: rgb(16, 44, 84);
+        color: rgb(52, 120, 201);
     }
 
 
