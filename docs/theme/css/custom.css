@@ -6,36 +6,59 @@ ______________________________________________
 ______________________________________________
 */
 
+/*
+Style sur les polices :
+-----------------------
+*/
+/* Police principale utilisée dans tout le site */
 :root {
-
-    /*
-    Style sur les polices :
-    -----------------------
-    */
-    /* --typo-generale: 'Fira Sans', 'Open Sans'; */
-
+    --typo-generale: 'Fira Sans', 'Open Sans', sans-serif;
     /* Polices titres & sous-titre : */
-    /* --typo-titres:  'Kanit', 'Exo 2'; */
-
-
+    --typo-titres: 'Kanit', 'Exo 2', sans-serif;
     /*
-    Style sur les couleurs :
-    ------------------------
-    */
-
-    /* --navbar-brand-couleur: rgb(255, 166, 0); */
+  Style sur les couleurs :
+  ------------------------
+  */
+    /* Couleur du lien normal dans la navbar */
     --nav-link: white;
+    /* Couleur du lien actif dans la navbar */
     --nav-link-active: rgb(255, 209, 5);
+    /*
+  Redéfinition des couleurs de Bootstrap :
+  ----------------------------------------
+  */
 
-
-    /* Redéfinition des couleurs de Bootstrap :*/
-    /* --bs-warning: rgb(255, 166,  0);
+    --bs-warning: rgb(255, 166, 0);
     --bs-warning-rgb: 255, 166, 0;
-
     --bs-warning-bg-subtle: rgb(250, 240, 100);
-    --bs-warning-border-subtle: rgb(250, 240, 100); */
-
+    --bs-warning-border-subtle: rgb(250, 240, 100);
 }
+
+/* Style global du corps de page */
+body {
+    font-family: var(--typo-generale);
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Titres principaux et secondaires */
+h1, h2, h3 {
+    font-family: var(--typo-titres);
+    color: var(--nav-link-active);
+}
+
+/* Lien normal */
+a {
+    color: var(--nav-link);
+    text-decoration: none;
+}
+
+    /* Lien actif ou survolé */
+    a.active,
+    a:hover {
+        color: var(--nav-link-active);
+    }
+
 
 
 
